@@ -1,0 +1,8 @@
+def reverse(n):
+    rev = ""
+    for i in n:
+        rev = i + rev
+    print ("Reversed string is: ",rev)
+    
+n = input("Enter you string: ")
+reverse(n)
